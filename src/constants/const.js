@@ -1,4 +1,3 @@
-export const navs = ['Home', 'Accommodation', 'Photo Gallery', 'Contact']
  
 export const languages = [
     {
@@ -16,4 +15,11 @@ export const languages = [
         name: "de",
         flag: "http://villaolivaverde.com/static/template_shared/img/de.svg"
     },
+]
+
+export const navs = [
+    {tab: 'Home', to: '/'},
+    {tab: 'Accommodation', to: '/accommodation'}, 
+    {tab: 'Photo Gallery', to: '/photogallery'}, 
+    {tab: 'Contact', to: '/contact'}
 ]
